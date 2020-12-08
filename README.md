@@ -2,8 +2,6 @@
 
 ```shell
 % node listProjects
-```
-```json5
 {
   projects: [
     {
@@ -24,9 +22,6 @@
 
 ```shell
 % node getProject  
-```
-
-```json5
 {
   project_id: '9e143dd8-1dea-44ac-a34c-36f58d3f094b',
   type: 'document_retrieval',
@@ -61,5 +56,22 @@
     table_results: { enabled: false, count: 10, per_document: 0 },
     suggested_refinements: { enabled: false, count: 10 }
   }
+}
+```
+
+
+```shell
+% node listCollections.js
+{
+  collections: [
+    {
+      name: 'Untitled collection 1',
+      collection_id: 'af0e27cf-c822-a7cc-0000-0175d53d10a0'
+    },
+    {
+      name: '失格者の最強賢者',
+      collection_id: 'dc22fb00-79dd-82d3-0000-0176429ca29f'
+    }
+  ]
 }
 ```
