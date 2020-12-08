@@ -1,0 +1,24 @@
+# NPM モジュール
+node_modules
+
+# JSDoc の出力先
+out
+
+# nyc の出力先
+coverage
+.nyc_output
+
+# 設定ファイル
+.idea
+*.iml
+.settings
+.project
+
+# その他
+.setenv*
+.command-memo
+package-lock.json
+dist
+upload
+.vscode/*
+*.log

@@ -1,0 +1,11 @@
+{
+  "name": "test-discovery-v2",
+  "version": "0.0.1",
+  "description": "Test Discovery V2 (Premium Plan)",
+  "private": true,
+  "author": "Ippei SUZUKI",
+  "scripts": {},
+  "dependencies": {
+    "ibm-watson": "^5.7.1"
+  }
+}
